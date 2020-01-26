@@ -899,9 +899,6 @@ NoConn ~ 2600 9315
 NoConn ~ 2600 9415
 NoConn ~ 2600 9515
 NoConn ~ 2600 9615
-NoConn ~ 2600 9715
-NoConn ~ 2600 9915
-NoConn ~ 2600 10015
 NoConn ~ 2600 10115
 NoConn ~ 2600 10215
 NoConn ~ 2600 10315
@@ -919,9 +916,6 @@ NoConn ~ 4505 8815
 NoConn ~ 4505 8915
 NoConn ~ 4505 9015
 NoConn ~ 4505 9115
-NoConn ~ 4505 9215
-NoConn ~ 4505 9315
-NoConn ~ 4505 9415
 NoConn ~ 4505 9515
 NoConn ~ 4505 9615
 NoConn ~ 4505 9715
@@ -1590,14 +1584,12 @@ Wire Wire Line
 	6775 8700 6675 8700
 Text Label 6675 8500 2    50   ~ 0
 COL7
-NoConn ~ 6775 9100
 NoConn ~ 6775 9200
 NoConn ~ 6775 9300
 NoConn ~ 6775 9400
 NoConn ~ 6775 9700
 NoConn ~ 6775 9800
 NoConn ~ 6775 9900
-NoConn ~ 6775 10000
 NoConn ~ 6775 10100
 $Comp
 L FPGA_Lattice:ICE40HX8K-BG121 U20
@@ -1796,7 +1788,6 @@ Text Label 6800 4750 2    50   ~ 0
 COL7
 NoConn ~ 6900 5050
 NoConn ~ 6900 5150
-NoConn ~ 6900 5350
 NoConn ~ 6900 5450
 NoConn ~ 6900 5550
 NoConn ~ 6900 5650
@@ -1806,7 +1797,6 @@ NoConn ~ 6900 5950
 NoConn ~ 6900 6050
 NoConn ~ 6900 6150
 NoConn ~ 6900 6250
-NoConn ~ 6900 6350
 NoConn ~ 6900 6450
 NoConn ~ 6900 6550
 Text Label 6800 4450 2    50   ~ 0
@@ -1834,13 +1824,10 @@ NoConn ~ 5000 4850
 NoConn ~ 5000 4950
 NoConn ~ 5000 5050
 NoConn ~ 5000 5150
-NoConn ~ 5000 5250
 NoConn ~ 5000 5350
 NoConn ~ 5000 5450
-NoConn ~ 5000 5550
 NoConn ~ 5000 5650
 NoConn ~ 5000 5750
-NoConn ~ 5000 5850
 NoConn ~ 5000 5950
 NoConn ~ 5000 6350
 NoConn ~ 5000 6050
@@ -1876,11 +1863,8 @@ NoConn ~ 3000 5845
 NoConn ~ 3000 6045
 NoConn ~ 3000 6145
 NoConn ~ 3000 6245
-NoConn ~ 3000 6445
 NoConn ~ 3000 6545
 NoConn ~ 3000 6645
-NoConn ~ 3000 6745
-NoConn ~ 3000 6845
 NoConn ~ 3000 6945
 NoConn ~ 3000 7045
 NoConn ~ 3000 7145
@@ -2460,4 +2444,68 @@ Wire Wire Line
 	3000 5945 2900 5945
 Wire Wire Line
 	3000 5345 2900 5345
+Wire Wire Line
+	3000 6745 2900 6745
+Text Label 2900 6745 2    50   ~ 0
+SPR1
+Wire Wire Line
+	2600 10015 2500 10015
+Text Label 2500 10015 2    50   ~ 0
+SPR1
+Wire Wire Line
+	2600 9915 2500 9915
+Text Label 2500 9915 2    50   ~ 0
+SPR2
+Wire Wire Line
+	3000 6845 2900 6845
+Text Label 2900 6845 2    50   ~ 0
+SPR2
+Wire Wire Line
+	3000 6445 2900 6445
+Text Label 2900 6445 2    50   ~ 0
+SPR3
+Wire Wire Line
+	2600 9715 2500 9715
+Text Label 2500 9715 2    50   ~ 0
+SPR3
+Wire Wire Line
+	6900 5350 6800 5350
+Text Label 6800 5350 2    50   ~ 0
+SPR4
+Wire Wire Line
+	6775 9100 6675 9100
+Text Label 6675 9100 2    50   ~ 0
+SPR4
+Wire Wire Line
+	6900 6350 6800 6350
+Text Label 6800 6350 2    50   ~ 0
+SPR5
+Wire Wire Line
+	6775 10000 6675 10000
+Text Label 6675 10000 2    50   ~ 0
+SPR5
+Wire Wire Line
+	5000 5250 4900 5250
+Text Label 4900 5250 2    50   ~ 0
+SPR6
+Wire Wire Line
+	4505 9215 4405 9215
+Text Label 4405 9215 2    50   ~ 0
+SPR6
+Wire Wire Line
+	5000 5550 4900 5550
+Text Label 4900 5550 2    50   ~ 0
+SPR7
+Wire Wire Line
+	4505 9315 4405 9315
+Text Label 4405 9315 2    50   ~ 0
+SPR7
+Wire Wire Line
+	5000 5850 4900 5850
+Text Label 4900 5850 2    50   ~ 0
+SPR8
+Wire Wire Line
+	4505 9415 4405 9415
+Text Label 4405 9415 2    50   ~ 0
+SPR8
 $EndSCHEMATC
